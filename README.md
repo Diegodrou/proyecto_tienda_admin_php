@@ -52,12 +52,7 @@ Before running the Admin Panel, ensure you have:
 2. Update the connection details in `baseDatos.php` (or equivalent file) with your database credentials.
 
 ```php
-<?php
-$host = 'localhost';
-$db = 'vinylstore_db';
-$user = 'root';
-$pass = '';
-?>
+$recurso = mysqli_connect("localhost","user","password","database_name",port);
 ```
 
 ### 3. Running the Admin Panel
