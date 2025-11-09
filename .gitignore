@@ -1,0 +1,15 @@
+# ============================
+# PHP ALBUM STORE PROJECT
+# ============================
+
+# Ignore all images (they might be copyrighted)
+img/*
+# Keep the img folder itself
+!img/.gitkeep
+
+
+# ============================
+# IDE / Editor files
+# ============================
+.vscode/
+
