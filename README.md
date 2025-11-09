@@ -86,7 +86,15 @@ Then visit http://localhost:3000
 ![User Management Screenshot](/demofiles/admin_users.png)
 
 ---
+⚠️ Media Assets Notice
 
+Please note: For copyright reasons, the following media assets are not included in this repository:
+
+    Album cover images used in the product catalog
+
+These proprietary assets have been removed to respect intellectual property rights. You will need to provide your own images and videos for these elements when running the application locally.
+
+---
 ## 🧠 Learnings
 
 This admin panel demonstrates:
