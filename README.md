@@ -88,11 +88,15 @@ Then visit http://localhost:3000
 
 ### 💿 Product Management
 
-![Product Management Screenshot](/demofiles/admin_products.png)
+![Product Management Screenshot](/demofiles/product_management.png)
 
 ### 👤 User Management
 
-![User Management Screenshot](/demofiles/admin_users.png)
+![User Management Screenshot](/demofiles/user_management.png)
+
+### 📦 Order Management
+
+![User Order Management Screenshot](/demofiles/order_management.png)
 
 ---
 
