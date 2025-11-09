@@ -1,7 +1,3 @@
-Here’s a polished README for your PHP site within the Vinyl Store project, keeping it cohesive with your existing content:
-
----
-
 # 🎵 Vinyl Store Web Application – Admin Panel
 
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge\&logo=php\&logoColor=white)
