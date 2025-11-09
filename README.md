@@ -49,7 +49,7 @@ Before running the Admin Panel, ensure you have:
 ### 2. Database Configuration
 
 1. Make sure the **MariaDB database** used by the main site is running.
-2. Update the connection details in `baseDatos.php` (or equivalent file) with your database credentials.
+2. Update the connection details in `baseDatos.php` with your database credentials.
 
 ```php
 $recurso = mysqli_connect("localhost","user","password","database_name",port);
@@ -93,7 +93,6 @@ This admin panel demonstrates:
 
 * PHP backend development and MVC structure concepts
 * Database connectivity with **MariaDB**
-* Integration with an existing e-commerce system
 * Bootstrap-powered responsive design for administrative interfaces
 
 ---
