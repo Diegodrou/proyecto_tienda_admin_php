@@ -1,7 +1,3 @@
-Here’s a polished README for your PHP site within the Vinyl Store project, keeping it cohesive with your existing content:
-
----
-
 # 🎵 Vinyl Store Web Application – Admin Panel
 
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge\&logo=php\&logoColor=white)
@@ -53,15 +49,10 @@ Before running the Admin Panel, ensure you have:
 ### 2. Database Configuration
 
 1. Make sure the **MariaDB database** used by the main site is running.
-2. Update the connection details in `baseDatos.php` (or equivalent file) with your database credentials.
+2. Update the connection details in `baseDatos.php` with your database credentials.
 
 ```php
-<?php
-$host = 'localhost';
-$db = 'vinylstore_db';
-$user = 'root';
-$pass = '';
-?>
+$recurso = mysqli_connect("localhost","user","password","database_name",port);
 ```
 
 ### 3. Running the Admin Panel
@@ -99,14 +90,21 @@ Then visit http://localhost:3000
 ![User Order Management Screenshot](/demofiles/order_management.png)
 
 ---
+⚠️ Media Assets Notice
 
+Please note: For copyright reasons, the following media assets are not included in this repository:
+
+    Album cover images used in the product catalog
+
+These proprietary assets have been removed to respect intellectual property rights. You will need to provide your own images and videos for these elements when running the application locally.
+
+---
 ## 🧠 Learnings
 
 This admin panel demonstrates:
 
 * PHP backend development and MVC structure concepts
 * Database connectivity with **MariaDB**
-* Integration with an existing e-commerce system
 * Bootstrap-powered responsive design for administrative interfaces
 
 ---
